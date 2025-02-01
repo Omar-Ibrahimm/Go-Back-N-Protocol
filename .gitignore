@@ -1,0 +1,23 @@
+# Ignore binary files
+*.exe
+*.o
+
+# Ignore build directories
+out/
+build/
+
+# Ignore simulation results
+simulations/results/
+
+# Ignore generated files
+src/output.txt
+src/*.d
+src/*.pdb
+src/*.lib
+src/*.dll
+src/*.so
+src/*.a
+src/*.def
+
+# Ignore IDE specific files
+.settings/
